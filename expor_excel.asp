@@ -30,7 +30,7 @@ set rsReport = conexao.Execute(sqlReport)
 			response.write "<td bgcolor='silver'><b>" & item.Name & "</b></td>"
 		Next
 		
-		'while to get all the data from the procedure
+		'Loop to get all the data from the procedure
 		While Not rsReport.EOF
 			response.write "<tr>"
 		
